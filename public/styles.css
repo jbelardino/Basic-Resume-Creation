@@ -1,0 +1,118 @@
+html{
+    background-color: rgba(23, 22, 22, 0.96)
+}
+.container{
+    display: flex;
+    margin: auto;
+    margin-top: 78px;
+    margin-bottom: 78px;
+    height: 1500px;
+    width: 960px;
+    background-color: white;
+    flex-direction: column;
+
+    font-family: Arial, Helvetica, sans-serif
+    
+    /* flex-wrap: wrap;
+    align-content: flex-start;
+    flex: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 7px;
+    font-size: 24px; */
+}
+
+.row1{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    flex: 17.5%;
+    border-bottom: 7px solid rgb(255, 193, 78);
+    justify-content: center;
+    gap: 58%;
+    
+}
+.name{
+    margin-top: 6%;
+    font-size: 24px;
+    line-height: 6px;
+}
+.contactInfo{
+    margin-top: 7%;
+    margin-right: 3%;
+    font-size: 15px;
+    line-height: 12px;
+}
+.row2{
+    display: flex;
+    flex: 12%;
+    width: 92%;
+    margin: auto;
+    border-bottom: 3px solid rgb(120, 120, 120);
+}
+.personalProfile{
+    margin-top: 1.5%;
+    font-size: 15px;
+    font-style: oblique;
+    flex: 23%;
+}
+.personalInfo{
+    margin-top: 1%;
+    flex: 77%;
+    font-size: 23px;
+}
+.row3{
+    display: flex;
+    flex: 23%;
+    width: 92%;
+    margin: auto;
+    border-bottom: 3px solid rgb(120, 120, 120);
+}
+.workExperience{
+    margin-top: 1.5%;
+    font-size: 15px;
+    font-style: oblique;
+    flex: 23%;
+}
+.jobs{
+    flex: 77%;
+    font-size: 23px;
+}
+.row4{
+    display: flex;
+    flex: 7%;
+    width: 92%;
+    margin: auto;
+    border-bottom: 3px solid rgb(120, 120, 120);
+}
+.keySkills{
+    margin-top: 1.5%;
+    font-size: 15px;
+    font-style: oblique;
+    flex: 23%;
+}
+.skillList{
+    margin-top: 1.5%;
+    flex: 19.25%;
+    font-size: 23px;
+    line-height: 6px;
+}
+.whiteSpace{
+    flex: 19.25%;
+}
+.row5{
+    display: flex;
+    flex: 40.5%;
+    width: 92%;
+    margin: auto;
+}
+.education{
+    margin-top: 1.5%;
+    font-size: 15px;
+    font-style: oblique;
+    flex: 23%;
+}
+.schools{
+    margin-top: 1.5%;
+    flex: 77%;
+    font-size: 23px;
+    line-height: 12px;
+}
